@@ -1,5 +1,4 @@
-
-# Common Mistakes
+# Digital Laboratory FTUI - Common Mistakes
 
 ## Kesalahan pada Variabel dan Array
 - Mendeklarasikan variabel tanpa tipe data yang tepat. `int umur;` (benar) vs `umur;` (salah).
