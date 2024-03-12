@@ -114,10 +114,71 @@ while(i < 10) {
 > In progress 
 
 ## Function
+Sintaks fungsi dalam C:
+```c
+[TIPE DATA FUNGSI] [NAMA FUNGSI] ([TD ARGUMEN 1] [NAMA ARGUMEN 1], ..., [TD ARGUMEN N] [NAMA ARGUMEN N])
+{
+    // KODE-KODE YANG DILAKUKAN OLEH FUNGSI
+    return [DATA YANG DIKEMBALIKAN];
+}
+```
+Fungsi dapat
+- "Memaketkan" proses yang berulang-ulang.
+- Layaknya fungsi matematika: masuk sesuatu, keluar sesuatu.
+
+Tipe data fungsi merupakan tipe dari output yang dikeluarkan oleh fungsi dengan return. Argumen adalah data yang masuk dalam pemanggilan fungsi. Jika fungsi tidak mengembalikan (mengeluarkan) apapun, tipe data `void` digunakan.
+
+Contoh fungsi yang menambahkan dua angka:
+```c
+int tambahDuaAngka(int angka1, int angka2) // Tipe data fungsi dan argumen-argumennya
+{
+    return angka1 + angka2; // Output fungsi
+}
+```
+Fungsi mengembalikan tipe data `int` dan menerima dua buah argumen bertipe `int`.
+> Thought Exercise: Apa yang terjadi jika tipe data argumen yang dimasukkan tidak sesuai?
+
 
 ## Memori management & Pointer
 
-## Stucts
+## Structs
+Jika fungsi dapat "memaketkan" proses, `struct` dapat "memaketkan" data dengan tipe yang beragam.
+
+```c
+struct Mahasiswa
+{
+    int umur; // Data pertama: umur [int]
+    float IPK; // Data kedua: IPK [float]
+};
+```
+Misalkan Edgrant adalah sebuah mahasiswa
+```c
+struct Mahasiswa Edgrant;
+```
+maka Edgrant dapat diakses dengan `.`.
+```c
+Edgrant.umur = 19; // Integer umur Edgrant
+Edgrant.IPK = 4.0; // Float IPK Edgrant
+```
+
+Jika terdapat pointer yang menunjuk ke sebuah struct, dapat diakses dengan `->`.
+```c
+struct Mahasiswa* pointer_Edgrant = &Edgrant;
+
+pointer_Edgrant->umur = 20; // Integer umur Edgrant 
+pointer_Edgrant->IPK = 2.3; // Float IPK Edgrant
+```
+> Thought Exercise: Apa yang terjadi jika `struct Mahasiswa Edgrant = {19, 4.0}`?
+
+## Typedef
+`typedef` digunakan untuk memberikan nama panggilan lain untuk tipe data tertentu. Dapat digunakan untuk mempersingkat pemanggilan `struct`.
+```c
+struct Mahasiswa; // Nama lengkap
+typedef struct Mahasiswa Mhsiswa; // Typedef
+
+Mhsiswa Edgrant; // Lebih singkat.
+```
+> Thought Exercise: Di mana lagi kira-kira ini akan bermanfaat?
 
 ## Others
 

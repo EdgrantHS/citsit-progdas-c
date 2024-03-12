@@ -4,12 +4,12 @@ Selamat datang di repositori Belajar Pemrograman C milik Digital Laboratory Faku
 
 ## Contributor 
 - Edgrant H. S. (T.Kom'22) [Original Creator]
-- 
+- M. Nadzhif Fikri (T. Kom'22) [Maskot]
 
 ## Materi
 ### Level 1
 - Variables & Arrays
-- Input/Output
+- Input/Output`
 - Conditional
 - Loops
 - Common Mistakes
