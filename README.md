@@ -3,7 +3,7 @@
 Selamat datang di repositori Belajar Pemrograman C milik Digital Laboratory Fakultas Teknik Universitas Indonesia (FTUI). Repositori ini bukan sumber daya untuk mempelajari bahasa pemrograman C, tetapi sebagai refresher untuk yang sudah pernah belajar.
 
 ## Contributor 
-- Edgrant H. S. (T.Kom'22) [Original Creator]
+- **Edgrant H. S.** [socials](https://www.linkedin.com/in/edgrant-henderson) [Original Creator]
 - 
 
 ## Materi
