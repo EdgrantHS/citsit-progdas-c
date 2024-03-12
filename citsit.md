@@ -53,9 +53,10 @@ printf("Halo, %s!\n", nama); // Menggunakan identifier %s untuk output
 
 > Thougt Exercise: Apa yang terjadi jika kita menggunakan `&` dan `%c` pada `scanf("%c", &nama);`? 
 
-## Conditional
+<br/>
+<br/>
 
-Kondisional digunakan untuk mengendalikan alur eksekusi program berdasarkan kondisi tertentu.
+## Conditional
 
 ### `if`, `else if`, `else`
 Menggunakan kondisional `if` untuk membuat keputusan dalam kode C.
@@ -71,10 +72,12 @@ if (skor > 90) {
 }
 ```
 
+<br/>
+<br/>
+
 ## Loops
 
 ### `for`, `while`
-Menggunakan loop untuk mengulang tugas yang sama berkali-kali.
 
 ```c
 // for loop
@@ -97,6 +100,9 @@ while(i < 10) {
     i++;
 }
 ```
+
+<br/>
+<br/>
 
 ## Common Mistakes
 
