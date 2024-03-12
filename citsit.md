@@ -1,14 +1,5 @@
 # Digital Laboratory FTUI - Citsit Pemrograman C
 
-## Variables & Arrays
-Variabel dapat menyimpan nilai secara sementara.  
-
-Berikut adalah bagian dari README.md yang telah diperbarui sesuai dengan instruksi Anda:
-
----
-
-# Digital Laboratory FTUI - Citsit Pemrograman C
-
 ## Variables
 
 ### Tipe Data dan Variabel
