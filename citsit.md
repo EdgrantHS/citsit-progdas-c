@@ -114,10 +114,34 @@ while(i < 10) {
 > In progress 
 
 ## Function
+Sintaks fungsi dalam C:
+```c
+[TIPE DATA FUNGSI] [NAMA FUNGSI] ([TD ARGUMEN 1] [NAMA ARGUMEN 1], ..., [TD ARGUMEN N] [NAMA ARGUMEN N])
+{
+    // KODE-KODE YANG DILAKUKAN OLEH FUNGSI
+    return [DATA YANG DIKEMBALIKAN];
+}
+```
+Fungsi dapat
+- "Memaketkan" proses yang berulang-ulang.
+- Layaknya fungsi matematika: masuk sesuatu, keluar sesuatu.
+
+Tipe data fungsi merupakan tipe dari output yang dikeluarkan oleh fungsi dengan return. Argumen adalah data yang masuk dalam pemanggilan fungsi. Jika fungsi tidak mengembalikan (mengeluarkan) apapun, tipe data `void` digunakan.
+
+Contoh fungsi yang menambahkan dua angka:
+```c
+int tambahDuaAngka(int angka1, int angka2)
+{
+    return angka1 + angka2;
+}
+```
+Fungsi mengembalikan tipe data `int` dan menerima dua buah argumen bertipe `int`.
+> Thought Exercise: Apa yang terjadi jika tipe data argumen yang dimasukkan tidak sesuai?
+
 
 ## Memori management & Pointer
 
-## Stucts
+## Structs
 
 ## Others
 
