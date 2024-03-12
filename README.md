@@ -2,7 +2,11 @@
 
 Selamat datang di repositori Belajar Pemrograman C milik Digital Laboratory Fakultas Teknik Universitas Indonesia (FTUI). Repositori ini bukan sumber daya untuk mempelajari bahasa pemrograman C, tetapi sebagai refresher untuk yang sudah pernah belajar.
 
-## Sangkupan materi
+## Contributor 
+- Edgrant H. S. (T.Kom'22) [Original Creator]
+- 
+
+## Materi
 ### Level 1
 - Variables & Arrays
 - Input/Output
