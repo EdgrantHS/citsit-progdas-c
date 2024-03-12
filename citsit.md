@@ -120,22 +120,6 @@ while (umur < 17) { // umur tidak diinisialisasi, hasilnya tidak terduga
 - Salah memasukkan identifier dalam `scanf()`. Misalnya, menggunakan `%d` untuk `float` atau `%f` untuk `int`. Ini dapat menyebabkan hasil yang tidak terduga dan kesalahan program. 
 > Jika Output anda 0, kemungkinan besar anda salah dalam memasukkan identifier dalam `scanf()` atau `prinf()` biasanya harusnya `%f`/`%lf` pakainya `%d` atau sebaliknya. 
 
-Berikut adalah tambahan untuk bagian Common Mistakes dalam README.md, khususnya terkait kesalahan yang sering terjadi saat menggunakan struktur kontrol `while` dan `if` dalam pemrograman C:
-
----
-
-## Common Mistakes
-
-### Kesalahan dalam Penggunaan Variabel dan Array
-- Mendeklarasikan variabel tanpa menentukan tipe data yang tepat.
-- Mengakses indeks array yang melebihi batas yang ditetapkan.
-- Lupa menginisialisasi variabel atau array sebelum digunakan.
-
-### Kesalahan dalam Input/Output
-- Salah menggunakan `printf()` untuk input atau `scanf()` untuk output.
-- Lupa menggunakan `&` di depan variabel saat menggunakan `scanf()`.
-- Salah memasukkan identifier dalam `scanf()` (misalnya, menggunakan `%d` untuk `float` atau `%f` untuk `int`).
-
 ### Kesalahan dalam Penanganan String
 - Lupa menyisipkan karakter null terminator `\0` di akhir string.
 - Menggunakan `=` untuk menyalin string alih-alih menggunakan fungsi `strcpy()` dari library `<string.h>`.
