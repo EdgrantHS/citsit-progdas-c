@@ -4,7 +4,8 @@ Selamat datang di repositori Belajar Pemrograman C milik Digital Laboratory Faku
 
 ## Contributor 
 - Edgrant H. S. (T.Kom'22) [Original Creator]
-- M. Nadzhif Fikri (T. Kom'22) [Maskot]
+- M. Nadzhif Fikri (T. Kom'23) [Maskot 1]
+- Christian Hadiwijaya (T. Kom'23) [Maskot 2]
 
 ## Materi
 ### Level 1
